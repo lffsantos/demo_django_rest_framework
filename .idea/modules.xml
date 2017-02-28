@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/propylon.iml" filepath="$PROJECT_DIR$/.idea/propylon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo_django_rest_framework.iml" filepath="$PROJECT_DIR$/.idea/demo_django_rest_framework.iml" />
     </modules>
   </component>
 </project>
