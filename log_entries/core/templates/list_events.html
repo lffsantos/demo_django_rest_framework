@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+</head>
+<body>
+ <a href='/logout/'> Logout</a> <br />
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Log Entries</div>
+
+  <!-- Table -->
+  <table class="table">
+    <thead>
+        <tr>
+            <th>start_date</th>
+            <th>end_date</th>
+            <th>note</th>
+            <th>category</th>
+        </tr>
+    </thead>
+       {% for event in events %}
+    <tr>
+        <td>{{ event.start_date }}</td>
+        <td>{{ event.end_date|default_if_none:"--" }}</td>
+        <td>{{ event.note|default_if_none:"" }}</td>
+        <td>{{ event.category.name }}</td>
+        <td class="text-center">
+            <a href='/delete_event/{{event.id}}/'> Delete</a> <br />
+        </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<a href='/create_event/' class="btn btn-primary" > New</a> <br />
+
+ </body>
+</html>

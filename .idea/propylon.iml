@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="settingsModule" value="log_entries/settings.py" />
+        <option name="manageScript" value="manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.5.2 virtualenv at ~/Lucas/desafios/demo_django_rest_framework/.venv" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/.venv/lib/python3.5/site-packages/rest_framework/templates" />
+      </list>
+    </option>
+  </component>
+</module>
