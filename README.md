@@ -1,6 +1,6 @@
-https://managelogs.herokuapp.com/ (live_demo)
-user: demo
-pass: demo1234
+https://managelogs.herokuapp.com/  
+user: demo  
+pass: demo1234  
 
 # LOG
 
